@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap 101 Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  body {
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+  }
+  </style>
+  <style type="text/css">
+
+      /* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: black;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      .container {
+        width: auto;
+        max-width: 1280px;
+      }
+      .container .credit {
+        margin: 20px 0;
+      }
+
+  
+
+      </style>
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <link href="css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="css/social-buttons.css" rel="stylesheet">
+      <script type="text/javascript">
+
+var mydate= new Date();
+var asst0start = new Date(today.getFullYear(), 8, 9);
+var asst0end = new Date(today.getFullYear(), 8, 18);
+var one_day=1000*60*60*24
+</script>
+    </head>
+
+    <body>
+
+
+
+      <!-- Part 1: Wrap all page content here -->
+      <div id="wrap">
+
+        <!-- Begin page content -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container">
+              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="brand" href="#">Kittiphong Xayasane</a>
+              <div class="nav-collapse collapse">
+                <ul class="nav">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#blog">Blog</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li class="active"><a href="#contact">Contact</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+        <div class="container">
+          <div class="page-header">
+            <h1 class="text-center">Blog</h1>
+          </div>
+
+
+          <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                  Collapsible Group Item #1
+                </a>
+              </div>
+              <div id="collapseOne" class="accordion-body collapse in">
+                <div class="accordion-inner">
+                  <h3>CS 350</h3>
+                  <div class="progress">
+                    <div class="bar bar-success" style="width: 35%;">Assignments 35%</div>
+                    <div class="bar bar-warning" style="width: 20%;">Midterm 20%</div>
+                    <div class="bar bar-danger" style="width: 45%;">Final Exam 45%</div>
+                  </div>
+                   <script type = "text/javascript"> document.write(Math.ceil((asst0end.getTime()-mydate.getTime())/one_day); </script>
+                  <div class="progress progress-info">
+                 
+                    <div class="bar" style="width: 20%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                  Collapsible Group Item #2
+                </a>
+              </div>
+              <div id="collapseTwo" class="accordion-body collapse">
+                <div class="accordion-inner">
+                  Anim pariatur cliche...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div id="push"></div>
+      </div>
+
+      <div id="footer">
+        <div class="container">
+          <p class="muted credit">2013 Kittiphong Xayasane.</p>
+        </div>
+
+      </div>
+
+
+
+
+
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/holder.js"></script>
+
+    </body>
+    </html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap 101 Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  body {
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+  }
+  </style>
+  <style type="text/css">
+
+      /* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: black;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      .container {
+        width: auto;
+        max-width: 1280px;
+      }
+      .container .credit {
+        margin: 20px 0;
+      }
+      </style>
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <link href="css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="css/social-buttons.css" rel="stylesheet">
+    </head>
+
+    <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=703332199681067";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+      <!-- Part 1: Wrap all page content here -->
+      <div id="wrap">
+
+        <!-- Begin page content -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container">
+              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="brand" href="#">Kittiphong Xayasane</a>
+              <div class="nav-collapse collapse">
+                <ul class="nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active"><a href="#blog">Blog</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="container">
+          <br>
+          <br>
+          <!--blog entry -->
+
+          
+          <div class="media row-fluid blog">
+            <a class="pull-left span4 offset1" href="#">
+              <img class="media-object" data-src="holder.js/360x270">
+            </a>
+            <div class="media-body span4 offset1">
+              <h4 class="media-heading lead">23.08.13</h4>
+              <h1 class="media-heading">Minecraft Server using LogMeIn Hamatchi</h1>
+              <p class="credit">
+                LogMeIn Hamatchi allows people to connect to your LAN using a Hamatchi Connection. I used this to set up my own quick and easy Minecraft Server.
+              </p>
+              <p class="credit">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis tincidunt magna, in pretium tortor varius eget. Fusce nec ultricies sapien. Ut eu faucibus sem, mattis blandit purus. Nulla leo tortor, aliquam ut mi eu, dapibus sollicitudin arcu. Morbi mauris felis, tincidunt ultrices blandit vitae, tempor sed massa. Donec varius mollis libero, vitae lacinia odio malesuada vitae. In consequat, nibh in rutrum laoreet, augue orci consectetur nulla, sed molestie felis est ut nunc. Vivamus venenatis lacinia odio, et mollis massa mattis ac.
+              </p>
+              <p class="credit">
+                Etiam suscipit lobortis dolor, vitae venenatis dolor pellentesque sit amet. Nullam euismod scelerisque suscipit. Etiam nec libero sollicitudin, facilisis quam eget, feugiat ante. Sed quis elit tristique, porta tortor non, mollis sem. Nullam vulputate sollicitudin adipiscing. Sed auctor tincidunt faucibus. Donec ut ligula sit amet lectus venenatis vulputate. Nulla id sem ligula. Vivamus lacinia eros ac nunc semper hendrerit sed eu orci. Cras mattis porttitor sagittis. Suspendisse vel pharetra nibh, ac ornare neque. In posuere, dui a convallis congue, elit erat pulvinar metus, eu semper lorem nisl eu dui. Aliquam rhoncus gravida eros, quis auctor urna euismod in.
+              </p>
+            
+              <div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+              <!-- Nested media object -->
+            </div>
+          </div>
+
+
+
+         
+
+ <br>
+          <br>
+        </div>
+
+
+
+
+
+
+        <div id="push"></div>
+      </div>
+
+
+
+      <div id="footer">
+        <div class="container">
+          <p class="muted credit">©  2013 Kittiphong Xayasane. All rights reserved.</p>
+
+          
+        </div>
+
+      </div>
+
+
+
+
+
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/holder.js"></script>
+      <script type="text/javascript">
+      $(function () {
+        $('.tooltip-test').tooltip();
+      });
+      </script>
+
+    </body>
+    </html>
